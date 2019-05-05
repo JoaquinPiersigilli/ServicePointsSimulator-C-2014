@@ -1,0 +1,70 @@
+Tiempo: 0 | Inicio del simulador
+	Puesto: 1 |   | [ ]
+	Puesto: 2 |   | [ ]
+	Puesto: 3 |   | [ ]
+-------------------------------------------------------------
+Tiempo: 1 | Llega reclamo a puesto 1
+	Puesto: 1 | reclamo | [ ]
+	Puesto: 2 |   | [ ]
+	Puesto: 3 |   | [ ]
+-------------------------------------------------------------
+Tiempo: 2 | Llega impresion a puesto 2
+Tiempo: 2 | Llega contratacion a puesto 3
+	Puesto: 1 | reclamo | [ ]
+	Puesto: 2 | impresion | [ ]
+	Puesto: 3 | contratacion | [ ]
+-------------------------------------------------------------
+Tiempo: 3 | Llega contratacion a puesto 1
+	Puesto: 1 | reclamo | [ contratacion ]
+	Puesto: 2 | impresion | [ ]
+	Puesto: 3 | contratacion | [ ]
+-------------------------------------------------------------
+Tiempo: 5 | Llega impresion a puesto 2
+	Puesto: 1 | reclamo | [ contratacion ]
+	Puesto: 2 | impresion | [ impresion ]
+	Puesto: 3 | contratacion | [ ]
+-------------------------------------------------------------
+Tiempo: 6 | Se Libera el puesto 2
+Tiempo: 6 | El puesto 2 atiende al siguiente de la cola
+Tiempo: 6 | Llega pago a puesto 2
+	Puesto: 1 | reclamo | [ contratacion ]
+	Puesto: 2 | impresion | [ pago ]
+	Puesto: 3 | contratacion | [ ]
+-------------------------------------------------------------
+Tiempo: 9 | Se Libera el puesto 3
+Tiempo: 9 | El puesto 3 le roba un cliente al puesto 2
+	Puesto: 1 | reclamo | [ contratacion ]
+	Puesto: 2 | impresion | [ ]
+	Puesto: 3 | pago | [ ]
+-------------------------------------------------------------
+Tiempo: 10 | Se Libera el puesto 2
+Tiempo: 10 | El puesto 2 le roba un cliente al puesto 1
+	Puesto: 1 | reclamo | [ ]
+	Puesto: 2 | contratacion | [ ]
+	Puesto: 3 | pago | [ ]
+-------------------------------------------------------------
+Tiempo: 14 | Se Libera el puesto 3
+	Puesto: 1 | reclamo | [ ]
+	Puesto: 2 | contratacion | [ ]
+	Puesto: 3 |   | [ ]
+-------------------------------------------------------------
+Tiempo: 16 | Se Libera el puesto 1
+	Puesto: 1 |   | [ ]
+	Puesto: 2 | contratacion | [ ]
+	Puesto: 3 |   | [ ]
+-------------------------------------------------------------
+Tiempo: 17 | Se Libera el puesto 2
+	Puesto: 1 |   | [ ]
+	Puesto: 2 |   | [ ]
+	Puesto: 3 |   | [ ]
+-------------------------------------------------------------
+Tiempo: 26 | Llega impresion a puesto 1
+	Puesto: 1 | impresion | [ ]
+	Puesto: 2 |   | [ ]
+	Puesto: 3 |   | [ ]
+-------------------------------------------------------------
+Tiempo: 30 | Se Libera el puesto 1
+	Puesto: 1 |   | [ ]
+	Puesto: 2 |   | [ ]
+	Puesto: 3 |   | [ ]
+-------------------------------------------------------------

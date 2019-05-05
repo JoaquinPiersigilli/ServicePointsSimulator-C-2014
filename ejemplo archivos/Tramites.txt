@@ -1,0 +1,4 @@
+pago 5
+impresion 4
+reclamo 15
+contratacion 7
